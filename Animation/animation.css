@@ -1,0 +1,39 @@
+.universe{
+height: 850px;
+width: 100%;
+background-image: url('earth.jpg');
+background-size: cover;
+margin-bottom: 0px;
+}
+
+
+.trajectory{
+
+    height:100%;
+    width: 200px;
+    /* background-color: ivory; */
+    margin-left: 40%;
+    padding-top: 0px;
+
+}
+.rocket{
+    height:auto;
+    width: 100%;
+    /* background-color: rgb(235, 235, 37);  */
+    animation-name: launch;
+    animation-duration: 8s;
+}
+.satellite{
+    animation-name: rotate;
+    animation-duration: 20s;
+}
+
+@keyframes launch{
+    from{transform:  translateY(600px);}
+    to{transform:  translateY(0px);}
+}
+
+@keyframes rotate{
+    from{transform:  translateX(0px);}
+    to{transform:  translateX(1400px);}
+}
