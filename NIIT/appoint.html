@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Appointment Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styledemo.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="main-conatainer">
+
+<!--Flaoting nav bar starts here-->
+<div class="floating-contact-bar">
+  <div class="floating-contact-bar-item" style="background-image: url('call1.jpg'); background-size: cover; border-radius: 30%;">
+    
+  </div>
+
+  <div class="floating-contact-bar-item" style="background-image: url('reviews.jpg'); background-size: cover; border-radius: 30%;">
+ 
+  </div>
+
+  <div class="floating-contact-bar-item" style="background-image: url('video.jpg'); background-size: cover; border-radius: 30%;">
+ 
+  </div>
+
+  <div class="floating-contact-bar-item" style="background-image: url('likeshare.jpg'); background-size: cover; border-radius: 30%;">
+   
+  </div>
+
+  <div class="floating-contact-bar-item" style="background-image: url('call1.jpg'); background-size: cover; border-radius: 30%;">
+ 
+  </div>
+</div>
+<!--Form of registration starts from here-->
+
+  <div class="apt-main-container">
+    <h2 class="form-name">&#x25A3; Appointment Details &#x25A3;</h2><br><br>
+    <form action="studiodb.php" method="post" style="color: rgb(99, 96, 96); font-weight: bold;">
+      &#9673; First Name: <input type="text" name="fname" style=" border-radius:0.6em;  padding-left: 10%; font-family: 'Kalam', cursive; color: rgb(80, 74, 74); margin-left: 3%; width: 40%;" > <br><br>
+        &#9673; Last Name: <input type="text" name="lname" style=" border-radius:0.6em;  padding-left: 10%; font-family: 'Kalam', cursive; color: rgb(80, 74, 74); margin-left: 3%; width: 40%;" ><br><br>
+        &#x25A3; Location (Optional): <input type="text" name="locname" style=" border-radius:0.6em;  padding-left: 10%; font-family: 'Kalam', cursive; color: rgb(80, 74, 74); margin-left: 3%;" ><br><br>
+        &#x25A3; Contact Number: <input type="text" name="contactnum" style=" border-radius:0.6em;  padding-left: 10%; font-family: 'Kalam', cursive; color: rgb(80, 74, 74); margin-left: 3%;" ><br><br>
+        &#x25A3; Email (Optional): <input type="text" name="emailid" style=" border-radius:0.6em;  padding-left: 5%; font-family: 'Kalam', cursive; color: rgb(80, 74, 74); margin-left: 3%;" ><br><br>
+        Date of Appointment: <input type="date" name="dateoa" ><br><br>
+        Time : <input type="time" name="timeoa" style="margin-left: 5%;"><br><br>
+         <!--Pop up Modal-->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" style="margin-left: 10%; color: cornsilk; font-weight: bolder;">
+          Schedules: 
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Manish Artistic MakeUp studio</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Time Schedule:<br>
+                <div class="table-responsive">
+                    <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                    <th scope="col">ID</th>
+                                                    <th scope="col">Category</th>
+                                                    <th scope="col">From</th>
+                                                    <th scope="col">Till</th>
+                                                    <th scope="col">Type</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Mark</td>
+                                                    <td>Otto</td>
+                                                    <td>@mdo</td>
+                                                    <td>@mdo</td>
+                                                    </tr>
+                                                    <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>Jacob</td>
+                                                    <td>Thornton</td>
+                                                    <td>@fat</td>
+                                                    <td>@fat</td>
+                                                    </tr>
+                                                    <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>Larry</td>
+                                                    <td>the Bird</td>
+                                                    <td>@twitter</td>
+                                                    <td>@twitter</td>
+                                                    </tr>
+                                                </tbody>
+                    </table>
+                  </div>
+                 
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        Category :
+        <select  name="treatment" style="position:relative;">
+            <option value="cat1">Treatment 1</option>
+            <option value="cat2">Treatment 2</option>
+            <option value="cat3">Treatment 3</option>
+            <option value="cat4">Treatment 4</option>
+            <option value="cat5">Treatment 5</option>
+            <option value="cat6">Treatment 6</option>
+            <option value="cat7">Treatment 7</option>
+            <option value="cat8">Treatment 8</option>
+            <option value="cat9">Treatment 9</option>
+            <option value="cat10">Treatment 10</option>
+          </select>
+          <br>
+          <br>
+          <button type="submit" class="btn btn-success" onclick="functionalert()" style="margin-left: 25%;">Submit</button>
+
+    </form>
+
+</div>
+
+<!--Form of registration starts ends here-->
+
+</div>
+</body>
+</html>

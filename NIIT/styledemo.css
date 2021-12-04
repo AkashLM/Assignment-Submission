@@ -1,0 +1,721 @@
+body{
+    background-image: url("back1.jpg");
+    background-size: cover;
+    /*background-repeat: no-repeat;*/   
+    
+}
+*{
+    box-sizing: border-box;
+}
+
+
+
+.button-float-enroll{
+    height: 17%;
+    width: auto;
+    background-color: rgb(21, 245, 77);
+    position: fixed;
+    margin-right: 1%;
+    margin-left: 97%;
+    border-radius : 12% 0% 0% 12% ;
+    padding-left: 0.5%;
+    padding-top: 1.5%;
+    padding-right: 2%;
+    font-family: 'Play', sans-serif;
+    border-style: solid;
+    border-color: cornsilk;
+    font-size: 22px;
+    border-width: 4px;
+   
+    
+
+}
+@media only screen and ( max-width:1000px){
+    .button-float-enroll{
+        height: 110px;
+        width: auto;
+        /*background-color: brown;*/
+        margin-right: 1%;
+        margin-left: 95%;
+        padding-left: 1%;
+        padding-top: 2%;
+        padding-right: 2%;
+        font-size: 20px;
+        border-radius : 12px 0% 0% 12px ;
+        border-width: 4px;
+
+            
+    }
+}
+
+@media only screen and ( max-width:800px){
+    .button-float-enroll{
+        height: 110px;
+        width: auto;
+        /*background-color: brown;*/
+        margin-right: 1%;
+        margin-left: 95%;
+        padding-left: 0.5%;
+        padding-top: 2%;
+        padding-right: 2%;
+        font-size: 20px;
+        border-radius : 12px 0% 0% 12px ;
+        border-width: 4px;
+
+            
+    }
+}
+
+@media only screen and ( max-width:600px){
+    .button-float-enroll{
+        height: 15%;
+        width: auto;
+        /*background-color: brown;*/
+        margin-right: 1%;
+        margin-left: 95%;
+        padding-left: 0.5%;
+        padding-top: 2%;
+        padding-right: 2%;
+        font-size: 120%;
+        border-radius : 12px 0% 0% 12px ;
+        border-width: 4px;
+
+            
+    }
+}
+@media only screen and ( max-width:500px){
+    .button-float-enroll{
+        height: 90px;
+        width: auto;
+        /*background-color: brown;*/
+        margin-right: 1%;
+        margin-left: 92%;
+        padding-left: 2px;
+        padding-top: 3%;
+        padding-right: 5%;
+        font-size: 16px;
+        border-radius : 10px 0% 0% 10px ;
+        border-width: 4px;
+
+            
+    }
+}
+
+
+@media only screen and ( max-width:400px){
+    .button-float-enroll{
+        height: 90px;
+        width: auto;
+        /*background-color: brown;*/
+        margin-right: 1%;
+        margin-left: 92%;
+        padding-left: 2px;
+        padding-top: 3%;
+        padding-right: 5%;
+        font-size: 16px;
+        border-radius : 10px 0% 0% 10px ;
+        border-width: 4px;
+
+            
+    }
+}
+
+.button-float-enroll:hover{
+    height: 18%;
+    width: 15%;
+    background-color: rgb(1, 99, 247);
+    border-color: cornsilk;
+    padding-top: 1.5%;
+    margin-left: 95%;
+
+}
+
+.floating-contact-bar{
+    height:700px;
+    width: 5%;
+    /*background-color: brown;*/
+    margin-top: 15%;
+    margin-left: 94%;
+    position: fixed;
+
+
+}
+@media only screen and ( max-width:1000px){
+    .floating-contact-bar{
+        height:750px;
+        width: 10%;
+        /*background-color: brown;*/
+        margin-top: 25%;
+        margin-left: 90%;
+        position: fixed;
+        
+    }
+}
+@media only screen and ( max-width:800px){
+    .floating-contact-bar{
+        height:600px;
+        width: 10%;
+        /*background-color: brown;*/
+        margin-top: 25%;
+        margin-left: 90%;
+        position: fixed;
+        
+    }
+}
+
+@media only screen and ( max-width:600px){
+    .floating-contact-bar{
+        height:600px;
+        width: 10%;
+        /*background-color: brown;*/
+        margin-top: 30%;
+        margin-left: 90%;
+        position: fixed;
+        
+    }
+}
+
+.floating-contact-bar-item{
+    height: 8%;
+    width: 80%;
+    background-color: rgb(209, 168, 168);
+    margin-top: 20%;
+    border-color: rgb(12, 235, 30);
+    border-style: solid;
+
+}
+.floating-contact-bar-item:hover{
+    border-color: rgb(212, 19, 187);
+    border-radius: 80%;
+
+
+
+}
+
+@media only screen and ( max-width:800px){
+    .floating-contact-bar-item{
+        height: 60px;
+        width: 60px;
+        background-color: rgb(209, 168, 168);
+        margin-top: 20%;
+        border-color: rgb(12, 235, 30);
+        border-style: solid;
+       
+    
+    }
+}
+@media only screen and ( max-width:600px){
+    .floating-contact-bar-item{
+        height: 30px;
+        width: 30px;
+        background-color: rgb(209, 168, 168);
+        margin-top: 30%;
+        border-color: rgb(12, 235, 30);
+        border-style: solid;
+       
+    
+    }
+}
+@media only screen and ( max-width:500px){
+    .floating-contact-bar-item{
+        height: 30px;
+        width: 30px;
+        background-color: rgb(209, 168, 168);
+        margin-top: 40%;
+        border-color: rgb(12, 235, 30);
+        border-style: solid;
+       
+    
+    }
+}
+/*Footer css starts from here*/
+
+.footer{
+    height: 350px;
+    width:auto;
+    background-color: rgb(10, 10, 10);
+    margin-top: 0%;
+    display: flex;
+    padding-top: 10px;
+    
+}
+
+.footer-left{
+    width: 45%;
+    height: 100%;
+   /* background-color: royalblue;*/
+    /*display: flex;
+    flex-direction: row;*/
+    padding-left: 5%;
+
+}
+
+.footer-right{
+
+    width: 50%;
+    height: 100%;
+   /* background-color: rgb(57, 228, 100);*/
+    display: flex;
+    /*flex-direction: column;*/
+    margin-top: 0%;
+    overflow: hidden;
+    margin-left: 2%;
+}
+
+
+.footer-left-item{
+
+    height: 60px;
+    width: 100%;
+   /* background-color: salmon;*/
+    margin-bottom: 5%;
+    display: flex;
+    
+}
+@media only screen and ( max-width:500px){
+    .footer-left-item{
+        height: 40px;
+        width: 100%;
+        margin-bottom: 5%;
+
+    
+    
+    }
+}
+
+.footer-left-item-logo{
+    
+    height:50px;
+    width: 50px;
+   /* background-color: rgb(141, 250, 114);*/
+    margin-top: 5px;
+    margin-left: 2%;
+    border-radius: 10%;
+    margin-bottom: 2%;
+   
+
+}
+@media only screen and ( max-width:500px){
+    .footer-left-item-logo {
+            height:40px;
+            width: 40px;
+            margin-top: 0px;
+            margin-left: 2%;
+            border-radius: 10%;
+            margin-bottom: 2%;
+    
+    
+    }
+}
+@media only screen and ( max-width:400px){
+    .footer-left-item-logo{
+            height:30px;
+            width: 30px;
+            margin-top: 5px;
+            margin-left: 2%;
+            border-radius: 10%;
+            margin-bottom: 2%;
+    
+    
+    }
+}
+.footer-left-item-link{
+    
+    height: 30px;
+    width: 70%;
+    background-color: rgb(116, 114, 117);
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    overflow: hidden;
+    padding-left: 2%;
+    padding-top: 10px;
+    border-radius: 25px;
+    padding-left: 10%;
+    color: cornsilk;
+    font-weight: bold;
+    font-size: 70%;
+
+   
+
+}
+@media only screen and ( max-width:500px){
+    .footer-left-item-link{
+        height: 20px;
+        width: 70%;
+        margin-bottom: 2%;
+        padding-left: 8%;
+        padding-top: 5px;
+        border-radius: 25px;
+        color: cornsilk;
+        font-weight: bold;
+        font-size: 60%;
+    
+    
+    }
+}
+@media only screen and ( max-width:350px){
+    .footer-left-item-link{
+        height: 20px;
+        width: 70%;
+        margin-bottom: 2%;
+        padding-left: 8%;
+        padding-top: 5px;
+        border-radius: 25px;
+        color: cornsilk;
+        font-weight: bold;
+        font-size: 50%;
+    
+    
+    }
+}
+
+.footer-left-item-link:hover{
+    height: 30px;
+    width: 70%;
+    background-color: rgb(2, 7, 53);
+    color: rgb(240, 241, 245);
+    font-size: 100%;;
+
+}
+
+.footer-left-item-logo:hover{
+    height:60px;
+    width: 60px;
+   /* background-color: rgb(141, 250, 114);*/
+    margin-top: 5px;
+    margin-left: 5%;
+    border-radius: 20%;
+    margin-bottom: 2%;
+
+}
+.footer-right-item{
+
+    height: 100%;
+    width: 50%;
+   /* background-color: salmon;*/
+    margin-top: 10%;
+    margin-left: 2%;
+    padding-left: 2%;
+    display: flex;
+   
+}
+@media only screen and ( max-width:600px){
+    .footer-right-item{
+        height: 80%;
+        width: 50%;
+       /* background-color: salmon;*/
+        margin-top: 5%;
+        margin-left: 2%;
+        padding-left: 2%;
+        display: flex;
+    
+    
+    }
+}
+
+.footer-right-item-below-A{
+
+    height: 80%;
+    width: 100%;
+    /*background-color: salmon;*/
+    /*margin-top: 10%;*/
+    margin-left: 2%;
+    display: flex;
+   
+}
+
+
+.footer-right-item-below-B{
+
+    height: 50%;
+    width: 100%;
+    /*background-color: salmon;*/
+    margin-bottom: 1%;
+    margin-left: 1%;
+   /* color: rgb(206, 201, 182);*/
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: burlywood;
+    font-size: 14px;
+   
+}
+@media only screen and ( max-width:700px){
+    .footer-right-item-below-B{
+        
+        font-size: 13px;
+    
+    }
+}
+@media only screen and ( max-width:600px){
+    .footer-right-item-below-B{
+        
+        font-size: 12px;
+    
+    }
+}
+@media only screen and ( max-width:400px){
+    .footer-right-item-below-B{
+        
+        font-size: 10px;
+    
+    }
+}
+.footer-right-item-logo{
+    
+    height:40px;
+    width: 50px;
+   /* background-color: rgb(141, 250, 114);*/
+    margin-top: 25px;
+    margin-left: 2%;
+    border-radius: 10%;
+    margin-bottom: 2%;
+   
+
+}
+.footer-right-item-logo:hover{
+    height:50px;
+    width: 60px;
+   /* background-color: rgb(141, 250, 114);*/
+    margin-top: 25px;
+    margin-left: 2%;
+    border-radius: 10%;
+    margin-bottom: 2%;
+   
+}
+@media only screen and ( max-width:600px){
+    .footer-right-item-logo{
+        height:40px;
+        width: 50px;
+       /* background-color: rgb(141, 250, 114);*/
+        margin-top: 10px;
+        margin-left: 2%;
+        border-radius: 10%;
+        margin-bottom: 2%;
+    
+    
+    }
+}
+@media only screen and ( max-width:500px){
+    .footer-right-item-logo{
+        height:30px;
+        width: 40px;
+       /* background-color: rgb(141, 250, 114);*/
+        margin-top: 10px;
+        margin-left: 2%;
+        border-radius: 10%;
+        margin-bottom: 2%;
+    
+    
+    }
+}
+.footer-right-item-link{
+    
+    height: 50px;
+    width: 80%;
+    background-color: rgb(116, 114, 117);
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    overflow: hidden;
+    padding-left: 2%;
+    padding-top: 10px;
+    border-radius: 25px;
+    padding-left: 10%;
+    color: cornsilk;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+@media only screen and ( max-width:500px){
+    .footer-right-item-link{
+        height: 50px;
+        width: 80%;
+        background-color: rgb(116, 114, 117);
+        margin-top: 5px;
+        margin-left: 5%;
+        margin-bottom: 2%;
+        overflow: hidden;
+        padding-left: 2%;
+        padding-top: 10px;
+        border-radius: 25px;
+        padding-left: 10%;
+        color: cornsilk;
+        font-weight: bold;
+        font-size: 10px;
+    
+    }
+}
+@media only screen and ( max-width:400px){
+    .footer-right-item-link{
+        height: 50px;
+    width: 100%;
+    background-color: rgb(116, 114, 117);
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    overflow: hidden;
+    padding-left: 2%;
+    padding-top: 10px;
+    border-radius: 25px;
+    padding-left: 10%;
+    color: cornsilk;
+    font-weight: bold;
+    font-size: 8px;
+    
+    }
+}
+
+.footer-right-item-logo-below{
+    
+    height: 40px;
+    width: 40px;
+   /* background-color: rgb(141, 250, 114);*/
+    margin-top: 3px;
+    margin-left: 2%;
+    border-radius: 10%;
+    margin-bottom: 2%;
+   
+
+}
+
+.footer-right-item-logo-below:hover{
+    
+    height: 50px;
+    width: 50px;
+   /* background-color: rgb(141, 250, 114);*/
+    margin-top: 3px;
+    margin-left: 5%;
+    border-radius: 10%;
+    margin-bottom: 2%;
+   
+
+}
+
+.footer-right-item-link-below{
+    
+    height: 40px;
+    width: 70%;
+    background-color: rgb(116, 114, 117);
+    margin-top: 3px;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    overflow: hidden;
+    padding-left: 2%;
+    padding-top: 10px;
+    border-radius: 25px;
+    padding-left: 10%;
+    color: cornsilk;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+@media only screen and ( max-width:500px){
+    .footer-right-item-link-below{
+      
+    height: 30px;
+    width: 70%;
+    margin-top: 3px;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    padding-left: 2%;
+    padding-top: 5px;
+    border-radius: 25px;
+    padding-left: 10%;
+    color: cornsilk;
+    font-weight: bold;
+    font-size: 12px;
+
+    }
+}
+@media only screen and ( max-width:400px){
+    .footer-right-item-link-below{
+      
+    height: 25px;
+    width: 60%;
+    margin-top: 4px;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    padding-left: 2%;
+    padding-top: 6px;
+    border-radius: 25px;
+    padding-left: 10%;
+    color: cornsilk;
+    font-weight: bold;
+    font-size: 9px;
+
+    }
+}
+/*Css for home.html ends  here*/
+
+/*Css for appoint.html starts from here*/
+.apt-main-container{
+    height: auto; 
+    width:60%; 
+    background-image: url('back2.jpg');
+    background-size: cover; 
+    margin: 5%; 
+    border-radius: 15% 0% 15% 0%; 
+    border-width: 2% ; 
+    border-color: rgb(243, 174, 240);
+    border-style: solid;
+    padding-left: 10%;  
+    padding-top: 2%; 
+    padding-bottom: 2%; 
+    box-shadow: 8px 12px 10px gray;
+}
+
+@media only screen and ( max-width:600px){
+    .apt-main-container{
+    height: auto; 
+    width:80%; 
+    background-image: url('back4.jpg');
+    background-size: cover; 
+    margin: 5%; 
+    border-radius: 15% 0% 15% 0%; 
+    border-width: 2% ; 
+    border-color: rgb(243, 174, 240);
+    border-style: solid;
+    padding-left: 10%;  
+    padding-top: 2%; 
+    padding-bottom: 2%; 
+    box-shadow: 8px 12px 10px gray;
+
+    }
+}
+.form-name{
+    font-family: 'Fruktur', cursive; 
+    font-size: 50px;
+    padding-left: 4%;
+}
+@media only screen and ( max-width:500px){
+    .form-name{
+        font-family: 'Fruktur', cursive; 
+        font-size: 25px;
+        padding-left: 5%;
+
+
+    }
+}
+
+@media only screen and ( max-width:450px){
+    .form-name{
+        font-family: 'Fruktur', cursive; 
+        font-size: 24px;
+        padding-left: 5%;
+
+
+    }
+}
+
+@media only screen and ( max-width:400px){
+    .form-name{
+        font-family: 'Fruktur', cursive; 
+        font-size: 20px;
+        padding-left: 5%;
+
+
+    }
+}
+
+/*Css for appoint.html ends here*/
